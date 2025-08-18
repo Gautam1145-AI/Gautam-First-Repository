@@ -21,7 +21,7 @@ class Single_LL{
     void reverse(){
         Node pre = null;//pointing previous node
         Node cur = head;//pointing current node
-        Node next;
+        Node next;//pointing next node
         while(cur!=null) {
             next = cur.next;
             cur.next = pre;
@@ -57,3 +57,4 @@ public class OptimizeReversing_LL {
         obj.display();
     }
 }
+

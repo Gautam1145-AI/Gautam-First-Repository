@@ -76,6 +76,6 @@ public class Main{
         obj.insert_end(40);
         obj.insert_at_pos(50, 2);
 
-        obj.display();  // Expected: 30 -> 50 -> 20 -> 10 -> 40 -> null
+        obj.display(); 
     }
 }
